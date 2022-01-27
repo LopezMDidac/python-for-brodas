@@ -1,5 +1,4 @@
-
-nombre = None
+is_staying = True
 aka = "hulk"
 edad = 15
 altura_m = 1.78
@@ -10,7 +9,7 @@ if es_soltero:
 else:
     marriage = "YES"
 
-while nombre != aka:
+while is_staying:
     print("Hola humano, Como te llamas??")
     nombre = input()
     if nombre == aka:
@@ -20,35 +19,8 @@ while nombre != aka:
         print("Heigh: " + str(altura_m))
         print("Social estatus: " + clase)
         print("Married : " + marriage)
-    elif nombre == "Q" or nombre =="q":
-        break
+        is_staying = False
+    elif nombre.upper() == "Q":
+        is_staying = False
     else:
         print("no compatible")
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#print("Encatado de conocerte " + nombre)
-
-
-
-
-
-
-
-
-
-
-
-
