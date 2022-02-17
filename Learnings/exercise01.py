@@ -26,7 +26,7 @@
 #     Validar que la entrada tiene es un float valido
 #     Guardar el valor con decimal redondeado a 2 decimales justos
 #
-# clase.
+# clase. (crear una lista de clases con validación)
 #     Validar que la clase es una clase valida
 #
 # es soltero
