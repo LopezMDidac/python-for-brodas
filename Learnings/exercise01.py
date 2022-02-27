@@ -26,9 +26,9 @@
 #     Validar que la entrada tiene es un float valido
 #     Guardar el valor con decimal redondeado a 2 decimales justos
 #
-# clase.
-#     Validar que la clase es una clase valida. (crear lista de clasis con validado)
-
+# clase. (crear una lista de clases con validación)
+#     Validar que la clase es una clase valida
+#
 # es soltero
 #     Preguntar si el personaje es soltero
 #     Guardar un valor booleano de si lo es o no.
