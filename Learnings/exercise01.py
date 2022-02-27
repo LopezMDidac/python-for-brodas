@@ -27,8 +27,8 @@
 #     Guardar el valor con decimal redondeado a 2 decimales justos
 #
 # clase.
-#     Validar que la clase es una clase valida
-#
+#     Validar que la clase es una clase valida. (crear lista de clasis con validado)
+
 # es soltero
 #     Preguntar si el personaje es soltero
 #     Guardar un valor booleano de si lo es o no.
