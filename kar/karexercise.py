@@ -22,7 +22,19 @@
 # edad.
 #     Validar que la entrada contiene solo numeros
 #     Guardar el valor en formato int
-#
+intro_edad = "Introduce la edad de tu psersonaje"
+print(intro_edad)
+age = input()
+
+try:
+    age = int(age)
+except ValueError:
+    age = input()
+
+
+
+
+
 # altura. (en metros)
 #     Validar que la entrada tiene es un float valido
 #     Guardar el valor con decimal redondeado a 2 decimales justos
