@@ -9,12 +9,18 @@
 
 vueltas = 1
 final = 5
-
+is_running = True
 # <> =
 
-while vueltas <= final:
-    print(vueltas)
-    vueltas = vueltas + 1
-   
+while vueltas != final:
+    vueltas = vueltas +1
+    if is_running:
+        print (str(vueltas) + "--> corriendo")
+    else:
+        print(str(vueltas) + "--> saltando")
+        is_running = not is_running
+
+    
+
 
     
