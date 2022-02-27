@@ -22,6 +22,9 @@
 # edad.
 #     Validar que la entrada contiene solo numeros
 #     Guardar el valor en formato int
+from operator import truediv
+
+
 intro_edad = "Introduce la edad de tu psersonaje"
 print(intro_edad)
 age = input()
@@ -43,13 +46,17 @@ intro_altura = "Introduce la altura deseada para tu personaje en metros "
 
 
 print(intro_altura)
-altura_char = input()
 
-try:
-    altura_char = float(altura_char)
-except ValueError:
-    print("La altura de tu personaje tiene que ser un numero ej: 1.85")
-    altura_char = (input())
+
+while True:
+    altura_char = input()
+    try:
+        altura_char = float(altura_char)
+        break
+    except ValueError:
+        print("La altura de tu personaje tiene que ser un numero ej: 1.85")
+    
+        
 
 altura_char = round(altura_char, 2)
 #print de comprobación redondeo
@@ -94,9 +101,10 @@ while chose_class != clase:
 intro_soltero = "En tu aventura te esposaste con alguna belleza? si o no"
 soltero = None
 
-print(intro_soltero)
-is_soltero = input()
-while is_soltero != "si" or is_soltero != "no":   
+
+while soltero is True or soltero is False:   
+    print(intro_soltero)
+    is_soltero = input()
     if is_soltero == "si":
         soltero = True
         print("Afortunado aventurero")
@@ -109,5 +117,5 @@ while is_soltero != "si" or is_soltero != "no":
     
     else:
         print("Contesta unicamente con si o no")
-        is_soltero = input()
+        
 
