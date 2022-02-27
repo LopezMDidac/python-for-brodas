@@ -93,3 +93,25 @@
 ### > Bienvenid@ a la ...
 ### > ...
 ### <
+
+
+print("unica linea")
+print()
+print("prints separados")
+print("linea uno")
+print("linea dos")
+print ("linea tres")
+print()
+print("triple comilla")
+print("""linea uno
+linea dos
+    linea tres
+""")
+print()
+print("special char ")
+print("linea uno \nlinea dos\nlinea tres")
+print()
+print("playing with special chars")
+print("text with \" quote")
+print("mi headline\n\tsubhedline1\n\tsubheadline2")
+print("string with bars \\")
