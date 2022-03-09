@@ -33,6 +33,17 @@ while True:
         print(compra)
         print("Que producto queires modificar?")
         modificar_producto = input()
+    if elegir_opcion == 4:
+        print(compra)
+        print ("Que articulo desea quitar de la lista?")
+        borrar = input
+        list.remove(borrar)
+
+
+
+    
+
+
         
     
 
