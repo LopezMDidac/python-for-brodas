@@ -37,8 +37,8 @@
 ### > Tomates
 ### > Patatas
 ### > Pañales
-### > Bienvenid@ a la ...
-### > ...
+### > 
+### > ...Bienvenid@ a la ...
 ### <
 ##
 ## 2. Agregar producto a la lista
