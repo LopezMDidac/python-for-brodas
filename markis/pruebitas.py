@@ -20,6 +20,17 @@ while vueltas != final:
         print(str(vueltas) + "--> saltando")
         is_running = not is_running
 
+
+
+#\n - Newline.
+#\t- Horizontal tab.
+#\r- Carriage return.
+#\b- Backspace.
+#\f- Form feed.
+#\'- Single Quote.
+#\"- double quote.
+#\\-Backslash.
+
     
 
 
