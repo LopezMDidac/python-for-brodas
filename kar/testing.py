@@ -16,3 +16,14 @@ while soltero is None:
     
     else:
         print("Contesta unicamente con si o no")
+
+def dummy(name:str, num:int)->int:
+    print("hola mundo")
+    print(name)
+    print(num)
+    print(num * 3)
+    print("---------------------------------------------------------------")
+    return num * 3
+dummy("paper", 20)
+resulatdo = dummy(15, 12)
+print(resulatdo)
