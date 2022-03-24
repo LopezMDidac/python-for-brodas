@@ -1,3 +1,9 @@
+# Agregar menu: 0. Salir 1. Ver Personaje
+# Cambiar de variables a Diccionario
+# Trabajarlo en funciones
+# [Extra] 2. Agregar personaje
+
+
 
 #Saludo inicial, pedimos input del nombre y lo recogemos en el segundo print.
 #print("Hola como te llamas?")

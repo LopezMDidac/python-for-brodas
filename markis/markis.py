@@ -1,3 +1,8 @@
+# Agregar menu: 0. Salir 1. Ver Personaje
+# Cambiar de variables a Diccionario
+# Trabajarlo en funciones
+# [Extra] 2. Agregar personaje
+
 
 nombre = None
 aka = "hulk"
