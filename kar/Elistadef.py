@@ -12,6 +12,7 @@ def intro():
      3. Modificar producto de la lista
      4. Quitar producto de la lista""")
     choose = input()
+    #except ValueError (este cambio de tipo es inseguro, un value error evitaria)
     choose = int(choose)
     return choose
 
@@ -30,8 +31,7 @@ def add_product_func():
 
 def modify_products():
     print("Estos son los productos que hay en la lista. Cuál quieres modificar?")
-    for (i, item) in enumerate(products):
-            print(i,item)
+    show_list()
     select_product = input()
     select_product = int(select_product)
 
@@ -42,8 +42,7 @@ def modify_products():
     print(str(old_product) + " se ha modificado por " + str(modify_product) + "\n" )
 
 def remove_product():
-    for (i, item) in enumerate(products):
-            print(i,item)
+    show_list()
     print ("Escriba el articulo que desea quitar?")
     try:
             borrar = input()
@@ -59,8 +58,10 @@ def exit_list():
         want_to_exit = input()
     
         if want_to_exit == "si":
-            return want_to_exit
+            return True
 
+        if want_to_exit == "no":
+            return False
 
 while True:
     
@@ -74,11 +75,14 @@ while True:
     elif choose == 4:
         remove_product()
     elif choose == 0:
-        exit_list()
+        the_choose = exit_list()
+        if the_choose == True:
+            break
+        if the_choose == False:
+            continue
     else: 
         print("Opcion invalida")
-    if exit_list() == "si":
-        break
+    
 
 
 
